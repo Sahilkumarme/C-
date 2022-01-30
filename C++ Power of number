@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+int main (){
+cout<<"\n\n\n";   
+cout<<"Enter Number which you want Power\n";
+int num;
+cin>>num;
+cout<<endl;
+cout<<"Enter the power of your number\n";
+int num2;
+cin>>num2;
+cout<<endl;
+int ans;
+ans=num;
+for(int i=1;i<num2;i++){
+ans=ans*num;
+
+}
+cout<<ans<<endl;
+
+if(num2==0 || num<=-1 || num==0){
+
+    cout<<"This is invalid Number\n";
+}
+
+if(num2<=-1){
+    cout<<"Invalid number\n";
+}
+
+return 0;
+}
